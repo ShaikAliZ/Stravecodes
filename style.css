@@ -67,7 +67,7 @@ header.sticky{
   flex-direction: column;
   transition:.5s;
   z-index:999;
-  transform: translateX(1000px);
+  transform: translateX(5000px);
  /* opacity:0;*/
 }
 .navigation li{
