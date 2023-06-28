@@ -1,3 +1,4 @@
+window.addEventListener('load', function(){
 const menuToggle = document.querySelector('.menuToggle');
 const header = document.querySelector('header');
 const btn = document.querySelector('.btn');
@@ -12,4 +13,5 @@ window.addEventListener('scroll', function(){
 function toggleMenu(){
   menuToggle.classList.remove('active');
   navigation.classList.remove('active');
+}
 }
